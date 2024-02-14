@@ -28,6 +28,6 @@ jobs:
       - name: repository dispath
         uses: peter-evans/repository-dispatch@v3
         with:
-          token: ${{ secrets.TOKE_PAT }}
+          token: ${{ secrets.Test_PAT }}
           repository: mhd8a/coding
           event-type: my-event
