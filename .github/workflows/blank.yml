@@ -31,4 +31,3 @@ jobs:
           repository: mhd8a/coding
           event-type: "my-event"
           token: ${{secrets.PAT}}
-          echo test, and deploy your project.
