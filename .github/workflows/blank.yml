@@ -30,4 +30,4 @@ jobs:
         with:
           repository: mhd8a/coding
           event-type: "my-event"
-          token: ${{secrets.PAT}}
+          token: ${{ secrets.PAT }}
